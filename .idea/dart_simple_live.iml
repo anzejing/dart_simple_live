@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/simple_live_app/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/simple_live_app/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/simple_live_app/build" />
+      <excludeFolder url="file://$MODULE_DIR$/simple_live_console/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/simple_live_console/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/simple_live_console/build" />
+      <excludeFolder url="file://$MODULE_DIR$/simple_live_core/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/simple_live_core/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/simple_live_core/build" />
+      <excludeFolder url="file://$MODULE_DIR$/simple_live_core/packages/tars_dart/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/simple_live_core/packages/tars_dart/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/simple_live_core/packages/tars_dart/build" />
+      <excludeFolder url="file://$MODULE_DIR$/simple_live_tv_app/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/simple_live_tv_app/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/simple_live_tv_app/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Dart SDK" level="project" />
+    <orderEntry type="library" name="Dart Packages" level="project" />
+  </component>
+</module>

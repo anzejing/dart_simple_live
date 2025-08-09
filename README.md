@@ -17,9 +17,9 @@
 ## 支持直播平台：
 
 - 虎牙直播
-
+[Home](../../../../Library/Java/JavaVirtualMachines/microsoft-17.jdk/Contents/Home)
 - 斗鱼直播
-
+[Home](../../../../Library/Java/JavaVirtualMachines/microsoft-17.jdk/Contents/Home)
 - 哔哩哔哩直播
 
 - 抖音直播
