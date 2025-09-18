@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:remixicon/remixicon.dart';
 import 'package:simple_live_app/app/app_style.dart';
-import 'package:simple_live_app/app/log.dart';
 import 'package:simple_live_app/app/sites.dart';
 import 'package:simple_live_app/models/db/follow_user.dart';
 import 'package:simple_live_app/widgets/net_image.dart';
@@ -162,8 +161,8 @@ class FollowUserItem extends StatelessWidget {
       int hours = durationInSeconds ~/ 3600;
       int minutes = (durationInSeconds % 3600) ~/ 60;
 
-      String hourText = hours > 0 ? '$hours小时' : '';
-      String minuteText = minutes > 0 ? '$minutes分钟' : '';
+      String hourText = hours > 0 ? '${hours}小时' : '';
+      String minuteText = minutes > 0 ? '${minutes}分钟' : '';
 
       if (hours == 0 && minutes == 0) {
         return "不足1分钟";
@@ -171,7 +170,7 @@ class FollowUserItem extends StatelessWidget {
 
       return '$hourText$minuteText';
     } catch (e) {
-      Log.logPrint('格式化开播时长出错: $e');
+      print('格式化开播时长出错: $e');
       return "--小时--分钟";
     }
   }

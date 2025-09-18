@@ -142,7 +142,6 @@ class OtherSettingsController extends BaseController {
       allowedExtensions: ['log'],
       type: FileType.custom,
       fileName: item.name,
-      bytes: Uint8List(0),
     );
     if (filePath != null) {
       var file = File(item.path);
