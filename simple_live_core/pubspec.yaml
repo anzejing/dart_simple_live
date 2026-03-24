@@ -1,6 +1,6 @@
 name: simple_live_core
 version: 1.0.3
-description: "聚合直播核心库"
+description: "Live streaming aggregation core library"
 repository: https://github.com/xiaoyaocz/dart_simple_live
 publish_to: "none"
 environment: 
@@ -24,4 +24,3 @@ dependencies:
 dev_dependencies: 
   lints: ^2.0.0
   test: ^1.21.0
-
